@@ -1,0 +1,17 @@
+.article-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article {
+  flex-basis: calc(25% - 20px); /* Adjust the width of each column as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+  max-width: 100%;
+}

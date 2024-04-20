@@ -1,0 +1,12 @@
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-login {
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}

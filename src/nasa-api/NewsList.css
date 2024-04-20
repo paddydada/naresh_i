@@ -1,0 +1,47 @@
+.newspaper {
+  background-color: #f8f9fa; /* Newspaper background color */
+}
+
+.newspaper-article {
+  background-color: #ffffff; /* Article background color */
+  border: 1px solid #dee2e6; /* Article border */
+  border-radius: 5px; /* Article border radius */
+  margin-bottom: 20px; /* Margin between articles */
+}
+
+.newspaper-article-image {
+  height: 200px; /* Image height */
+  object-fit: cover; /* Ensure image covers entire space */
+  border-top-left-radius: 5px; /* Rounded corners for top left */
+  border-top-right-radius: 5px; /* Rounded corners for top right */
+}
+
+.newspaper-article-title {
+  font-size: 18px; /* Title font size */
+  font-weight: bold; /* Title font weight */
+  margin-bottom: 10px; /* Margin below title */
+}
+
+.newspaper-article-description {
+  font-size: 14px; /* Description font size */
+  margin-bottom: 10px; /* Margin below description */
+}
+
+.newspaper-article-date {
+  font-size: 12px; /* Date font size */
+}
+
+.newspaper-article-footer {
+  padding: 10px; /* Footer padding */
+  background-color: #f8f9fa; /* Footer background color */
+}
+
+.newspaper-article-readmore {
+  color: #ffffff; /* Read more button text color */
+  background-color: #007bff; /* Read more button background color */
+  border: none; /* Remove button border */
+}
+
+.newspaper-article-readmore:hover {
+  background-color: #0056b3; /* Hover background color */
+}

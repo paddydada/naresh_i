@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Apple IPhone - Black 128 GB",
+    "price": 79999,
+    "rating": { "rate": 4.7, "ratings": 4500, "reviews": 1200 },
+    "image": "images/iphone-black.jpg"
+  },
+  {
+    "title": "Apple IPhone - Blue 256 GB",
+    "price": 89999,
+    "rating": { "rate": 4.3, "ratings": 1500, "reviews": 100 },
+    "image": "images/iphone-blue.jpg"
+  }
+]
