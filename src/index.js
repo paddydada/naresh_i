@@ -22,6 +22,11 @@ import { AjaxAxiosDemo } from "./ajax-demo/demo-ajax-ax.jsx";
 import { NasaAPI } from "./nasa-api/nasa-api.jsx";
 import { UVIndex } from "./nasa-api/sample.jsx";
 import { NewsList } from "./nasa-api/twiter.jsx";
+import { ProductDetails } from "./nasa-api/ecom.jsx";
+import { ProductList } from "./instagram/inst.jsx";
+import { IntervalDemo } from "./event/interval_demo.jsx";
+import { CarouselDemo } from "./event/carousel_demo.jsx";
+import { TouchDemo } from "./event/touch_event.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -41,7 +46,11 @@ root.render(
     {/* <AjaxAxiosDemo /> */}
     {/* <NasaAPI /> */}
     {/* <UVIndex /> */}
-    <NewsList />
+    {/* <NewsList /> */}
+    {/* <ProductList /> */}
+    {/* <IntervalDemo /> */}
+    {/* <CarouselDemo /> */}
+    <TouchDemo />
   </React.StrictMode>
 );
 
